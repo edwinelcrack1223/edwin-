@@ -1,0 +1,149 @@
+/* hojaestilo10Contacto.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Gris claro de fondo */
+    color: #333;
+}
+
+#encabezado {
+    background-color: #2c3e50; /* Azul oscuro/grisáceo */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#encabezado h1 {
+    margin: 0;
+    color: #18bc9c; /* Verde azulado */
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    background-color: #34495e; /* Azul grisáceo un poco más claro */
+    border-radius: 5px;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #18bc9c; /* Verde azulado */
+    border-radius: 5px;
+}
+
+#pagina {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    color: #2c3e50; /* Azul oscuro/grisáceo */
+    border-bottom: 2px solid #18bc9c; /* Verde azulado */
+    padding-bottom: 10px;
+}
+
+a {
+    color: #3498db; /* Azul brillante */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9; /* Azul más oscuro */
+    text-decoration: underline;
+}
+
+img {
+    border: 2px solid #bdc3c7; /* Gris plateado */
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+form {
+    background-color: #ecf0f1; /* Gris muy claro */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2c3e50; /* Azul oscuro/grisáceo */
+    font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bdc3c7; /* Gris plateado */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.button button {
+    background-color: #18bc9c; /* Verde azulado */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.button button:hover {
+    background-color: #139a7e; /* Verde azulado más oscuro */
+}
+
+iframe {
+    border: 3px solid #bdc3c7; /* Gris plateado */
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+#pie {
+    background-color: #2c3e50; /* Azul oscuro/grisáceo */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#pie p {
+    margin: 0;
+    color: #18bc9c; /* Verde azulado */
+}

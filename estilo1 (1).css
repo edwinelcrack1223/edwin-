@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tu Página Futurista</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Pega aquí el CSS de arriba */
+    </style>
+</head>
+<body>
+    <h1>BIENVENIDO AL FUTURO</h1>
+    <p>Esta es una página rediseñada con estilo cyberpunk y efectos modernos.</p>
+    <img src="tu-imagen.jpg" alt="Ejemplo">
+    <iframe src="https://ejemplo.com"></iframe>
+</body>
+</html>
